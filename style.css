@@ -102,13 +102,13 @@ main {
     border: none;
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .formulario {
         flex-wrap: wrap;
     }
 
     .formulario > * {
-        flex-basis: 100%;
+        flex-basis: 30%;
     }
 
 }
